@@ -107,6 +107,46 @@ nav {
   color: grey;
 }
 
+.dropdown{
+list-style-type: none;
+background-color: #1A1A1A;
+position: absolute;
+display: flex;
+flex-direction: column;
+text-wrap: nowrap;
+gap: 10px;
+box-shadow: 0.1px 0.1px 1px .1px;
+border-radius: 5px;
+padding: 7px;
+top: 20px;
+transition: all 1s;
+opacity: 0;
+max-height: 0;
+overflow: hidden;
+}
+
+.dropdown a {
+  text-decoration: none;
+  color:white;
+}
+
+.dropdown a:hover {
+  color: #42b883;
+}
+
+/* .dropdown li{
+
+} */
+
+.solution-link:hover{
+.dropdown1{
+  opacity: 1;
+  max-height: 300px;
+}
+
+
+}
+
 .green {
   text-decoration: none;
   color: white;
